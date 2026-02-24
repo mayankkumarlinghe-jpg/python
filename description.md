@@ -1,4 +1,5 @@
 this language was developed bu Guido Van Rossum in 1991 and the name Python was derived from the famous 1970's bbc show monty's python flying cars he want to name it short and easy so it got name python
+why python
 python is an easy to learn language and is open source and free
 it is a portable language it can be used on any os 
 python is a versatile and powerful programming language widely used in AI due to its simplicity and reusability
@@ -6,3 +7,10 @@ the extensive libraries and frameworks available in python,like PyTorch TensorFl
 Python's strong comunity support make it easy to learn and troubleshoot,which is beneficial for AI projects.
 Understanding Python's role in data manipulation and analysis is crucial for developing effective AI Projects.
 Proefffeciency in Python can increase your employabiblity  as an AI engineer,as it is the preffered language in industry.
+
+Python IDLE(Integrated Development Environment) Installation  instructions:
+if installed 
+window+R
+python--version
+if not found  then:
+use python keyword in the cmd it ill redirect to microsoft store if not simply go to google and get the interpretor of python for cmd based on your particular os

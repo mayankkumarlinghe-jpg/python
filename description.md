@@ -14,3 +14,39 @@ window+R
 python--version
 if not found  then:
 use python keyword in the cmd it ill redirect to microsoft store if not simply go to google and get the interpretor of python for cmd based on your particular os
+1. Python is a popular and widely used programming language, making it a valuable skill to have in the tech industry.
+
+2. Python is a general-purpose language, allowing you to work on various projects such as machine learning, web development, game development, and more.
+
+3. Python is beginner-friendly and easy to learn, making it a good choice for those new to programming or looking to pick up a side skill.
+
+4. Python is often used in coding interviews due to its simplicity and readability, making it easier for interviewers to understand your code.
+
+5. Python offers a wide range of job opportunities, with many companies requiring familiarity with the language, even if it's not the primary language used.
+
+6. However, Python may not be the best choice for specialized tasks such as game development or mobile app development, where other languages like C# or Swift may be more suitable.
+
+7. To enhance your career prospects, it is recommended to learn additional languages or specialize in a specific area beyond Python, such as blockchain development, JavaScript, Go, or Rust.
+
+8. Continuously improving your programming skills and staying updated with new technologies is essential for success in the tech industry.
+
+
+   1. Python is ranked as the number one programming language and is highly sought after in the IT industry.
+
+2. Even a junior python developer can earn a good salary, ranging from 5 to 9 lakh rupees in India and $88,000 to $129,000 in the US.
+
+3. It is possible to become a python developer by self-learning.
+
+4. Python is the best programming language for beginners due to its extensive use cases, easy syntax, and availability of learning resources.
+
+5. Python has high demand in the job market, with thousands of job opportunities available in India and the US.
+
+6. The recommended roadmap to learn Python includes: learning the fundamentals of Python programming, practicing problem-solving skills, participating in hackathons to build projects and network, preparing for interviews, and building a LinkedIn presence.
+
+7. It is important to showcase your skills through projects and GitHub repositories on your resume and LinkedIn profile.
+
+8. Building connections with people working in IT companies and participating in hackathons can help in getting recommendations and job opportunities.
+
+9. Confidence in your skills and knowledge is crucial for clearing interviews and getting your first job as a python developer.
+
+

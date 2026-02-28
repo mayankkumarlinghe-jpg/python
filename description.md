@@ -166,7 +166,7 @@ use python keyword in the cmd it ill redirect to microsoft store if not simply g
 
 2. The int function converts any data type to an integer, while the float function converts any data type to a floating-point number.
 
-3. The ord function converts a character to its ASCII integer value, while the hex and oct functions convert an integer to its hexadecimal and octal string representations.
+3. The word function converts a character to its ASCII integer value, while the hex and oct functions convert an integer to its hexadecimal and octal string representations.
 
 4. The tuple, set, and list functions are used to convert a data type to a tuple, set, and list, respectively.
 
@@ -209,6 +209,11 @@ use python keyword in the cmd it ill redirect to microsoft store if not simply g
 10. Variables can be incremented using the += operator.
 
 11. Python provides built-in functions for working with numbers, such as abs() for absolute value and round() for rounding.
+12. Comparison operators can be used to compare numeric values, such as == for equality, > for greater than, < for less than, etc.
+
+13. Casting can be used to convert a string representation of a number to an actual number using the int() function.
+
+14. It is important to be aware of the data type of variables when performing calculations to avoid unexpected results.
 
     1. In Python, to swap two variables, you typically need to use a third variable.
 
@@ -221,9 +226,3 @@ use python keyword in the cmd it ill redirect to microsoft store if not simply g
 5. Swapping variables using the XOR operator or the single line of code method does not waste extra memory.
 
    
-
-13. Comparison operators can be used to compare numeric values, such as == for equality, > for greater than, < for less than, etc.
-
-14. Casting can be used to convert a string representation of a number to an actual number using the int() function.
-
-15. It is important to be aware of the data type of variables when performing calculations to avoid unexpected results.

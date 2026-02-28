@@ -210,8 +210,20 @@ use python keyword in the cmd it ill redirect to microsoft store if not simply g
 
 11. Python provides built-in functions for working with numbers, such as abs() for absolute value and round() for rounding.
 
-12. Comparison operators can be used to compare numeric values, such as == for equality, > for greater than, < for less than, etc.
+    1. In Python, to swap two variables, you typically need to use a third variable.
 
-13. Casting can be used to convert a string representation of a number to an actual number using the int() function.
+2. Swapping variables without using a third variable can be done using a formula: a = a + b, b = a - b, a = a - b.
 
-14. It is important to be aware of the data type of variables when performing calculations to avoid unexpected results.
+3. Another way to swap variables in Python is by using the XOR operator (^).
+
+4. Python has a unique feature where you can swap variables in a single line of code: a, b = b, a.
+
+5. Swapping variables using the XOR operator or the single line of code method does not waste extra memory.
+
+   
+
+13. Comparison operators can be used to compare numeric values, such as == for equality, > for greater than, < for less than, etc.
+
+14. Casting can be used to convert a string representation of a number to an actual number using the int() function.
+
+15. It is important to be aware of the data type of variables when performing calculations to avoid unexpected results.

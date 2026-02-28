@@ -252,3 +252,21 @@ use python keyword in the cmd it ill redirect to microsoft store if not simply g
 7. There are various functions that can be used with strings, which will be covered in future videos.
 
 8. Strings can be enclosed in either single or double quotation marks.
+
+   1. Unicode has 1,114,112 possible code points, making it suitable for all human languages.
+
+2. Unicode is not an encoding, but rather specifies the map for the code points.
+
+3. UTF-8 is the most common and popular encoding in Python.
+
+4. Python 3 defaults to Unicode and UTF-8, making it easier to work with different languages and characters.
+
+5. The encode method converts a text string into its binary representation, while the decode method does the opposite.
+
+6. UTF-8 encoding is variable length, with ASCII characters represented by a single byte and other characters represented by multiple bytes.
+
+7. Most Unicode characters are valid for identifiers in Python, allowing for the use of different languages and accents.
+
+8. String manipulation, regular expressions, and the default encoding for string.encode are all Unicode-based.
+
+9. It is recommended to always specify the encoding to avoid confusion, especially when switching between Python 2 and Python 3.

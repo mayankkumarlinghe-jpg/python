@@ -225,4 +225,16 @@ use python keyword in the cmd it ill redirect to microsoft store if not simply g
 
 5. Swapping variables using the XOR operator or the single line of code method does not waste extra memory.
 
-   
+   1. Strings are a data type in Python that are enclosed in quotation marks.
+
+2. Strings can contain any characters, numbers, and symbols, making them versatile for storing different types of data.
+
+3. Strings can be assigned to variables and manipulated, such as printing or indexing into specific parts of the string.
+
+4. Indexing into a string starts at 0, not 1.
+
+5. Slicing, which allows extracting substrings from a longer string, will be covered in a future video.
+
+6. There are various functions that can be used with strings, which will be covered in future videos.
+
+7. Strings can be enclosed in either single or double quotation marks.

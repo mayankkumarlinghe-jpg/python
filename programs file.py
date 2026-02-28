@@ -24,3 +24,22 @@ if marks > 0:
                 print("Grade F")
 else:
     print("Enter valid amrks")
+
+#Loops in Python 
+#for loop implemetation using for multiplication program:
+
+for i in range(1,11):
+    print(f"9 X {i} = {9*i}")
+
+i=1
+while i<11:
+    print(f"9 X {i} = {9*i}")
+    i+=1
+list =[1,2,3,4,5,6,7,8]
+result=[]
+for item in list:
+    if item % 2 ==0:
+        pass
+    else:
+        result.append(item*2)
+print(result)

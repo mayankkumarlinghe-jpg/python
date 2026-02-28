@@ -67,4 +67,34 @@ for i in range(1,11):
         print("~",end="")
     else :
         print(i)
+#Nested Loops in the Python
+for i in range(1,11):
+    for j in range(i,11):
+        print("$",end="")
+    print(" ")
+""" Output 
+$ 
+$$ 
+$$$ 
+$$$$ 
+$$$$$ 
+$$$$$$ 
+$$$$$$$ 
+$$$$$$$$ 
+$$$$$$$$$ """
+for i in range(1,11):
+    for j in range(1,i):
+        print("$",end="")
+    print(" ")
+"""Output
+$$$$$$$$$$ 
+$$$$$$$$$ 
+$$$$$$$$ 
+$$$$$$$ 
+$$$$$$ 
+$$$$$ 
+$$$$ 
+$$$ 
+$$ 
+$ """
 

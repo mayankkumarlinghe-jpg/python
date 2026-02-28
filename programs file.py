@@ -43,3 +43,28 @@ for item in list:
     else:
         result.append(item*2)
 print(result)
+
+#usage of break and continue
+""" the break statement when executed in a loop it terminates the loop from there only and gets the program out of loop 
+but sometimes we have to just skip an iteration then we use continue in that case
+"""
+for i in range(1,20):
+    if i%2== 0:
+        continue
+    if i ==19:
+        break
+    print(i)
+#few uestions on basis of loops 
+for j in range(1,4):
+        print("*"*j)
+for i in range(1,11):
+    if i%2==0:
+        print("#",end="")
+    if i%3==0:
+        print("@",end="")
+    
+    if i%7==0:
+        print("~",end="")
+    else :
+        print(i)
+

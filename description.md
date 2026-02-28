@@ -68,3 +68,80 @@ use python keyword in the cmd it ill redirect to microsoft store if not simply g
 
 5. Proficiency in Python's data types enables effective use of libraries like NumPy and Pandas, which are fundamental for data science tasks.
 
+1. Jupyter notebooks allow you to combine text documentation and code, making it ideal for constructing a narrative around data analysis.
+
+2. Jupyter notebooks are commonly used by data scientists for data analysis in the real world.
+
+3. To work with Jupyter notebooks in VS Code, you need to install the Python extension, which provides support for Jupyter notebooks.
+
+4. Jupyter notebooks consist of cells, which can be either text or code cells.
+
+5. Cells can be evaluated using the green play button, and the output is displayed below the cell.
+
+6. Markdown cells allow you to add formatted text documentation using Markdown syntax.
+
+7. Code cells allow you to write and execute Python code.
+
+8. Keyboard shortcuts, such as Ctrl+Enter and Shift+Enter, can be used to evaluate cells and move between cells.
+
+9. When working with Jupyter notebooks, it's important to rerun the entire file when reopening it to ensure all cells are evaluated in the correct order.
+
+10. The last expression of a cell is automatically printed by default, allowing for easy display of results.
+
+    1. Python uses indentation to structure code, making it important to use consistent and correct indentation.
+
+2. Indentation is used to define blocks of code, such as loops and conditional statements.
+
+3. Incorrect indentation can lead to syntax errors and cause the code to not run properly.
+
+4. Python uses a colon (:) to indicate the start of an indented block.
+
+5. It is recommended to use four spaces for each level of indentation.
+
+6. Indentation can be done using spaces or tabs, but it is important to be consistent throughout the code.
+
+7. Python does not use curly braces ({}) or semicolons (;) to define blocks of code like some other programming languages.
+
+8. Proper indentation improves code readability and makes it easier to understand and maintain.
+
+9. Python's indentation-based structure helps enforce clean and organized code.
+
+10. Understanding and correctly using indentation is essential for writing effective Python code.
+
+    1. Python scripts can be executed using the command prompt.
+
+2. Create a Python script by using a text editor and save it with a .py extension.
+
+3. Use the command prompt to navigate to the directory where the script is saved.
+
+4. Use the Python interpreter to execute the script by typing "python" followed by the script name.
+
+5. The output of the script can be redirected to a text file using the ">" symbol followed by the desired file name.
+
+6. Stream redirection automatically creates a new text file if it doesn't exist or replaces the contents of an existing file.
+
+7. Running Python scripts in the command prompt allows for easy execution and testing of code.
+   1. Variables in Python are containers where you can store values.
+
+2. Variables can be used to store numbers, strings, and other data types.
+
+3. You can assign a value to a variable using the assignment operator (=).
+
+4. Variables can be changed and updated with new values.
+
+5. You don't need to define the type of a variable in Python, it is automatically determined based on the value assigned to it.
+
+6. Using an undefined variable will result in a NameError.
+
+7. Underscore (_) can be used to access the output of the previous operation.
+
+8. Variables can be used with strings to store and manipulate text.
+   1. In Python, the special variable "__name__" is used to determine if a module is being run as the main program or if it is being imported as a module.
+
+2. When a module is run as the main program, the value of "__name__" is set to "__main__".
+
+3. When a module is imported as a module, the value of "__name__" is set to the name of the module.
+
+4. The "__name__" variable is useful when you want to execute certain code only when the module is run as the main program.
+
+5. By checking the value of "__name__" and using an "if" statement, you can control which code is executed based on whether the module is run as the main program or imported as a module.

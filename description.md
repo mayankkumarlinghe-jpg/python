@@ -233,8 +233,22 @@ use python keyword in the cmd it ill redirect to microsoft store if not simply g
 
 4. Indexing into a string starts at 0, not 1.
 
-5. Slicing, which allows extracting substrings from a longer string, will be covered in a future video.
+   - Strings can be indexed in both forward and backward directions.
 
-6. There are various functions that can be used with strings, which will be covered in future videos.
+- Forward indices are zero-based, while backward indices are negative one-based.
 
-7. Strings can be enclosed in either single or double quotation marks.
+- To print a particular character from a string, use its index in square brackets.
+
+- Negative indices are useful for retrieving the last element of a string.
+
+- Indices can be calculated using expressions or variables.
+
+- Using an index that is out of range will result in an IndexError.
+
+- Indices must be integers, and using any other type will result in a TypeError.
+
+6. Slicing, which allows extracting substrings from a longer string, will be covered in a future video.
+
+7. There are various functions that can be used with strings, which will be covered in future videos.
+
+8. Strings can be enclosed in either single or double quotation marks.

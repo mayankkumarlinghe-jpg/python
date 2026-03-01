@@ -95,6 +95,24 @@ $$$$$$
 $$$$$ 
 $$$$ 
 $$$ 
+"""
+list= ["Mango","Apple","grapes","Mongo"]
+for fruit in list:
+    for word in fruit:
+        if word == "M":
+            print(fruit)
+
+
+
+color =["Red","Green","Blue"]
+fruit=["Mango","Apple","grapes","Mongo"]
+
+for x in color:
+    for y in fruit:
+        print(x,y)
+    print()
+
+
 $$ 
 $ """
 

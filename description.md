@@ -190,6 +190,26 @@ use python keyword in the cmd it ill redirect to microsoft store if not simply g
    
 1. Python has two main numerical types: integers and floats. Integers are whole numbers, while floats are decimal numbers.
 
+
+comparison in is and ===
+
+1. Python allows the use of mathematical operators on strings, such as concatenation and multiplication.
+
+2. Concatenation is the process of combining two strings using the "+" operator.
+
+3. Spaces can be added between strings by including an extra string with just a space.
+
+4. Variables can be used in concatenation by using the variable names instead of the actual strings.
+
+5. Multiplication can be used on strings to repeat them a certain number of times.
+
+6. Subtraction and division cannot be used on strings as they do not make sense in this context.
+
+7. String multiplication can be used for formatting purposes, such as creating indentation.
+"
+'coke' == 'pepsi'
+'pepsi' == 'pepsi'#true doesnt check if same object
+'pepsi' is'pepsi'# true only if they point to same object else it will give false
 2. The type() function can be used to determine the data type of a variable.
 
 3. Basic arithmetic operations can be performed on numeric data, such as addition, subtraction, multiplication, and division.

@@ -95,7 +95,8 @@ $$$$$$
 $$$$$ 
 $$$$ 
 $$$ 
-"""
+$$ 
+$ """
 list= ["Mango","Apple","grapes","Mongo"]
 for fruit in list:
     for word in fruit:
@@ -113,6 +114,27 @@ for x in color:
     print()
 
 
-$$ 
-$ """
+
+# for loop with if else statement it execute only when loop doesn't terminate abruptly
+
+fav =['Py','C','java','Ruby']
+
+for lang in fav:
+    if 'java' == lang:
+        print("Java found")
+        break
+    else:
+        print("Java not Found")
+
+#while loop condition becomes false and loop runs normally then else block will be executed
+import random
+count =0
+while count!=10:
+    die= random.randint(1,6)
+    if die!=6:
+        count+=1
+    else:
+        print(count)
+
+
 

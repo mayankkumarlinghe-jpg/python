@@ -135,6 +135,22 @@ while count!=10:
         count+=1
     else:
         print(count)
+x=30
+y=50
+z=10
+if x>y or x>z:
+    print("x is larger")
+else:
+    print("x is the smallest")
+    
+if x>y and x>z:
+    print("x is largest")
+else:
+    print("x is the smallest")
 
+if not(x>y or x>z):
+    print("x is not largest")
+else:
+    print("x is large")
 
 

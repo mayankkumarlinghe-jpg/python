@@ -153,4 +153,32 @@ if not(x>y or x>z):
 else:
     print("x is large")
 
+l1=[1,2,3,4,5]
+l2=[1,2,4,5]
+
+if l1==l2:
+    print(True)
+else:
+    print(False)
+    # returns false
+
+
+l1=[1,2,3,4,5]
+l2=[1,2,3,4,5]
+
+if l1==l2:
+    print(True)
+else:
+    print(False)
+# return True
+
+l1=[1,2,3,4,5]
+l2=[1,2,3,4,5]
+
+if l1 is l2:
+    print(True)
+else:
+    print(False)
+
+#returns false
 

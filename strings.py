@@ -94,6 +94,20 @@ def extract_and_reverse(input_string):
         substring += input_string[i]
     return substring
 
+\' helps to insert single qoute to string
+\\ insert single backslash
+\n new line to cursor
+\r carriage return takes the cursor to the first position of the same line
+\t add tab space to the string
+\f form feed is a page breaking ascii controll character
+\ooo octal value
+\b does backspace of the char
+\xhh hex value 
+#unicode and encoding basics
+'heelo'.encode('utf-8) encodes helo string to utf 8 unicode
+               output of encode can be decode usig unicode output.decode()
+
+
 def extract_and_reverse(input_string):
     return input_string[2:-2][::-1]
 escape chars is python

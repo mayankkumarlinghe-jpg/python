@@ -68,7 +68,16 @@ splitlines() method  used to split the string  if we pass true to the method it 
 swapcase() method swap the cases lower to upper and vice versa
 title() method converts first letter of the each subs tring to uppercase
 
-
+my_list =[0,1,2,3,4,5,6,7,8,9]
+print(my_list[0])
+print(my_list[-2])
+#negati
+#we can use indexing to traverse our list from end and indexing starts with -1
+print(my_list[0:10:1])# starting with index 0 stops at index 10 means upto 9th index and with step 1
+def extract_and_reverse(input_string):
+    substring = ''
+    substring += input_string[-2:2 :-1]
+    return substring
 
 
 zfile(number) methods helps in

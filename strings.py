@@ -84,3 +84,16 @@ zfile(number) methods helps in
 the adding zeroes in the beginning ofthe string when we want to make string lemgth more and adding padding as zero
 
 strip() method is used to remove spaces from beg and en of the string 
+
+#::1 tavers the string from end to start
+
+Refactor the following code to improve its efficiency and readability. The code extracts a substring from a given string, starting from the third character to the second last character, and reverses it.
+def extract_and_reverse(input_string):
+    substring = ''
+    for i in range(len(input_string) - 2, 2, -1):
+        substring += input_string[i]
+    return substring
+
+def extract_and_reverse(input_string):
+    return input_string[2:-2][::-1]
+escape chars is python

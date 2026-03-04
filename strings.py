@@ -40,3 +40,20 @@ replace(word to be replaced,number of occurences to be replaces lets for say 2 )
 user wants toreplace and we can alsospecify how many occurences to be replaced
 rfind("substring") method is used to find the last occurenevce of that perticular string
 
+'''
+str = "Mayank is a man"
+print(str.capitalize()) #capitalize the starting word
+print(str.casefold()) # lowers all the chars
+m = "mayank"
+print(m.center(10,"$"))# output $$mayank$$
+print(str.count("is"))# counts number of times a substring apperared in the string
+print(str.count("is",7,25)#we are providing tranversing index of string here
+
+str="mayank is a man who lives in mohli"
+print(str.find("mayank"))# output 0 as mayank start from index 0 in this also we can provide start stop index of traversing
+print(str.endswith("mohli")) # give True as oyput it checks if string ends with that particular string or not in this also we can provide traversing index
+
+str = "M\tayan\tk\t"
+print(str.expandtabs())#M       ayan    k        ads moretabs to the string
+
+

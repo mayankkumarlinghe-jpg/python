@@ -57,3 +57,21 @@ str = "M\tayan\tk\t"
 print(str.expandtabs())#M       ayan    k        ads moretabs to the string
 
 
+
+
+rindex() give index oflast occurenec of the substring
+rjust(25,"A") justify string to right fills rest of the space of string to left and makes justification of string to right
+rsplit(",",2) splits string to two with separator ,
+rstrip() used to remove charcters from right side by passing those chars
+split() method used to remove chars and spilt string we can also pass number of times we want to perform split
+splitlines() method  used to split the string  if we pass true to the method it returns line breaks and if we pass true it wont be visible
+swapcase() method swap the cases lower to upper and vice versa
+title() method converts first letter of the each subs tring to uppercase
+
+
+
+
+zfile(number) methods helps in
+the adding zeroes in the beginning ofthe string when we want to make string lemgth more and adding padding as zero
+
+strip() method is used to remove spaces from beg and en of the string 

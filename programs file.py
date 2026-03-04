@@ -346,6 +346,17 @@ True
 >>>
 >>> print(x)
 (6.4031242374328485, 0.8960553845713439)
-
+>>> z=cmath.rect(x)
+Traceback (most recent call last):
+  File "<python-input-36>", line 1, in <module>
+    z=cmath.rect(x)
+TypeError: rect expected 2 arguments, got 1
+>>> z=cmath.rect(x[0],x[1])
+>>> print(z)
+(4+4.999999999999999j)
+>>>
+KeyboardInterrupt
+>>>
+"""
 
 

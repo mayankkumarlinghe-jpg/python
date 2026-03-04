@@ -269,6 +269,46 @@ No suitable Python runtime found
 Pass --list (-0) to see all detected environments on your machine
 or set environment variable PYLAUNCHER_ALLOW_INSTALL to use winget
 or open the Microsoft Store to the requested version.
+C:\Users\mayan>
+C:\Users\mayan>py -3.13 -m pip install numpy
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: numpy in .\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (2.4.2)
+
+C:\Users\mayan>python
+Python 3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> numpy
+Traceback (most recent call last):
+  File "<python-input-0>", line 1, in <module>
+    numpy
+NameError: name 'numpy' is not defined
+>>> import python
+Traceback (most recent call last):
+  File "<python-input-1>", line 1, in <module>
+    import python
+ModuleNotFoundError: No module named 'python'
+>>> import numpy
+>>> print(np._version_)
+Traceback (most recent call last):
+  File "<python-input-3>", line 1, in <module>
+    print(np._version_)
+          ^^
+NameError: name 'np' is not defined
+>>> import numpy as np
+>>> import cmath
+>>> z =3+2j
+>>> print(z)
+(3+2j)
+>>> z2 = complex(3,2)
+>>> print(z)
+(3+2j)
+>>> print(z ==)
+  File "<python-input-10>", line 1
+    print(z ==)
+              ^
+SyntaxError: invalid syntax
+>>> print(z==z)
+True
 
 
 

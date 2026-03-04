@@ -209,4 +209,66 @@ else:
     print(False)
 
 #returns false
+"""
+import cmath
+import numpy as np 
+
+z =3+2j
+print(z)
+
+str="My name is MAyank:"
+print(str)
+
+first="corey"
+last="schafer"
+
+sentance ='my name is {} {}'.format(first,last)
+print(sentance)
+
+
+#string formatting
+print(f" my name is {first} {last}")
+print(f" my name is {first.upper()} {last.upper()}")
+print(f" my name is {first} {last.lower()}")
+
+person = {'name':'mayank','age':39}
+sentence ="my name is {} and i am {} years old".format(person['name'],person['age'])
+print(sentence)
+
+
+print(f" my name is {person['name']} and i am {person['age']} years old.")
+
+calc = f'4 times 11 equal to {4*11}'
+print(calc)
+
+for i in range(1,11):
+    sentence = f'the val is {n:02}'
+    print(sentence)
+    # it will give padding to the output it will be liek 01 02 03.... upto 9
+    
+
+pi = 3.14159265
+sentence = f'the val is {pi:.4}'#will give floating point upto 4
+print(sentence)
+
+from  datetime import datetime
+
+birthday =datetime(1999,1,1)
+
+#sentence =f'jenn has a birthday on{birthday}'
+sentence =f'jenn has a birthday on {birthday:%B %d,%Y}'
+print(sentence) #gives basing datetime formating
+
+
+
+Microsoft Windows [Version 10.0.19045.6466]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\mayan>py -3.13-m pip install numpy
+No suitable Python runtime found
+Pass --list (-0) to see all detected environments on your machine
+or set environment variable PYLAUNCHER_ALLOW_INSTALL to use winget
+or open the Microsoft Store to the requested version.
+
+
 

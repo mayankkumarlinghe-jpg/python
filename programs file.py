@@ -309,6 +309,43 @@ NameError: name 'np' is not defined
 SyntaxError: invalid syntax
 >>> print(z==z)
 True
+>>> z =3+2j
+>>> y=complex(3,2)
+>>> print(y==z)
+True
+>>> print(z.conjugate())
+(3-2j)
+>>> y=complex(3,2)
+>>> z =3+2j
+>>> z1=1+3j
+>>> z3=4+5j
+>>> z5=z1+z2
+>>> print(z5)
+(4+5j)
+>>> z5=z1*z3
+>>> print(z5)
+(-11+17j)
+>>> z5=z1/z3
+>>> print(z5)
+(0.4634146341463415+0.17073170731707324j)
+>>> z3=4+5j
+>>> abs(z)
+3.605551275463989
+>>> cmath.phase(z)
+0.5880026035475675
+>>> print(np.arctan2(4,5)
+... )
+0.6747409422235526
+>>> cmath.phase(z3)
+0.8960553845713439
+>>> print(np.arctan2(4,5))
+0.6747409422235526
+>>> print(np.arctan2(5,4))
+0.8960553845713439
+>>> x=cmath.polar(z3)
+>>>
+>>> print(x)
+(6.4031242374328485, 0.8960553845713439)
 
 
 

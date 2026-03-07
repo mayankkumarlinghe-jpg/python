@@ -60,6 +60,6 @@ else:
    if condition:
      statement
     #using inner and outer if else and making it nested is using the indentation in python when we want multiple conditions to be checked dependently on the outer conditions 
-
+# printing the outputs 
 
   

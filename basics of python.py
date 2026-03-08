@@ -1,6 +1,7 @@
 a=10
 b=20
 print(a+b)
+
 #usage of different types of data type
 print(type(3>2))
 print(type(3))
@@ -61,5 +62,5 @@ else:
      statement
     #using inner and outer if else and making it nested is using the indentation in python when we want multiple conditions to be checked dependently on the outer conditions 
 # printing the outputs 
-
+using the keywords of python
   

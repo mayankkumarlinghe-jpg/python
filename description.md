@@ -1,12 +1,13 @@
-this language was developed bu Guido Van Rossum in 1991 and the name Python was derived from the famous 1970's bbc show monty's python flying cars he want to name it short and easy so it got name python
-why python
-python is an easy to learn language and is open source and free
-it is a portable language it can be used on any os 
-python is a versatile and powerful programming language widely used in AI due to its simplicity and reusability
-the extensive libraries and frameworks available in python,like PyTorch TensorFlow,sci-kit are essentials tools for AI engineers.
-Python's strong comunity support make it easy to learn and troubleshoot,which is beneficial for AI projects.
-Understanding Python's role in data manipulation and analysis is crucial for developing effective AI Projects.
-Proefffeciency in Python can increase your employabiblity  as an AI engineer,as it is the preffered language in industry.
+This language was developed by Guido van Rossum in 1991. The name "Python" was derived from the famous 1970's BBC show "Monty Python's Flying Circus". He wanted a name that was short, unique, and slightly mysterious, so he chose Python.
+
+Why Python?
+- Python is an easy-to-learn language and is open source and free.
+- It is a portable language that can be used on any OS.
+- Python is a versatile and powerful programming language widely used in AI due to its simplicity and reusability.
+- The extensive libraries and frameworks available in Python, like PyTorch, TensorFlow, and scikit-learn, are essential tools for AI engineers.
+- Python's strong community support makes it easy to learn and troubleshoot, which is beneficial for AI projects.
+- Understanding Python's role in data manipulation and analysis is crucial for developing effective AI projects.
+- Proficiency in Python can increase your employability as an AI engineer, as it is the preferred language in the industry.
 
 Python IDLE(Integrated Development Environment) Installation  instructions:
 if installed 

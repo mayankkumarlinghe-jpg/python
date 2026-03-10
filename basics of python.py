@@ -1,7 +1,7 @@
 a=10
 b=20
 print(a+b)
-
+# output gives 30
 #usage of different types of data type
 print(type(3>2))
 print(type(3))

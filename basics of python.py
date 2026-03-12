@@ -13,7 +13,6 @@ dict={}
 print(type(dict))
 print(type(33/3))
 print(type(3.0/2))
-
 print(type(3!=2))
 print(type(3>=2))
 print(type(3>2.0))

@@ -8,7 +8,7 @@ print(type(3))
 print(type(3.00))
 print(type(True))
 print(type("String"))
-print(type(list[]))
+print(type([]))
 dict={}
 print(type(dict))
 print(type(33/3))
@@ -61,5 +61,4 @@ else:
      statement
     #using inner and outer if else and making it nested is using the indentation in python when we want multiple conditions to be checked dependently on the outer conditions 
 # printing the outputs 
-using the keywords of python
-  
+# using the keywords of python

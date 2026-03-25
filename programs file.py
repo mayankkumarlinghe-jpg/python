@@ -209,21 +209,19 @@ else:
     print(False)
 
 #returns false
-"""
 import cmath
-import numpy as np 
 
 z =3+2j
 print(z)
 
-str="My name is MAyank:"
-print(str)
+my_str="My name is MAyank:"
+print(my_str)
 
 first="corey"
 last="schafer"
 
-sentance ='my name is {} {}'.format(first,last)
-print(sentance)
+sentence ='my name is {} {}'.format(first,last)
+print(sentence)
 
 
 #string formatting
@@ -242,7 +240,7 @@ calc = f'4 times 11 equal to {4*11}'
 print(calc)
 
 for i in range(1,11):
-    sentence = f'the val is {n:02}'
+    sentence = f'the val is {i:02}'
     print(sentence)
     # it will give padding to the output it will be liek 01 02 03.... upto 9
     
@@ -258,105 +256,3 @@ birthday =datetime(1999,1,1)
 #sentence =f'jenn has a birthday on{birthday}'
 sentence =f'jenn has a birthday on {birthday:%B %d,%Y}'
 print(sentence) #gives basing datetime formating
-
-
-
-Microsoft Windows [Version 10.0.19045.6466]
-(c) Microsoft Corporation. All rights reserved.
-
-C:\Users\mayan>py -3.13-m pip install numpy
-No suitable Python runtime found
-Pass --list (-0) to see all detected environments on your machine
-or set environment variable PYLAUNCHER_ALLOW_INSTALL to use winget
-or open the Microsoft Store to the requested version.
-C:\Users\mayan>
-C:\Users\mayan>py -3.13 -m pip install numpy
-Defaulting to user installation because normal site-packages is not writeable
-Requirement already satisfied: numpy in .\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (2.4.2)
-
-C:\Users\mayan>python
-Python 3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
->>> numpy
-Traceback (most recent call last):
-  File "<python-input-0>", line 1, in <module>
-    numpy
-NameError: name 'numpy' is not defined
->>> import python
-Traceback (most recent call last):
-  File "<python-input-1>", line 1, in <module>
-    import python
-ModuleNotFoundError: No module named 'python'
->>> import numpy
->>> print(np._version_)
-Traceback (most recent call last):
-  File "<python-input-3>", line 1, in <module>
-    print(np._version_)
-          ^^
-NameError: name 'np' is not defined
->>> import numpy as np
->>> import cmath
->>> z =3+2j
->>> print(z)
-(3+2j)
->>> z2 = complex(3,2)
->>> print(z)
-(3+2j)
->>> print(z ==)
-  File "<python-input-10>", line 1
-    print(z ==)
-              ^
-SyntaxError: invalid syntax
->>> print(z==z)
-True
->>> z =3+2j
->>> y=complex(3,2)
->>> print(y==z)
-True
->>> print(z.conjugate())
-(3-2j)
->>> y=complex(3,2)
->>> z =3+2j
->>> z1=1+3j
->>> z3=4+5j
->>> z5=z1+z2
->>> print(z5)
-(4+5j)
->>> z5=z1*z3
->>> print(z5)
-(-11+17j)
->>> z5=z1/z3
->>> print(z5)
-(0.4634146341463415+0.17073170731707324j)
->>> z3=4+5j
->>> abs(z)
-3.605551275463989
->>> cmath.phase(z)
-0.5880026035475675
->>> print(np.arctan2(4,5)
-... )
-0.6747409422235526
->>> cmath.phase(z3)
-0.8960553845713439
->>> print(np.arctan2(4,5))
-0.6747409422235526
->>> print(np.arctan2(5,4))
-0.8960553845713439
->>> x=cmath.polar(z3)
->>>
->>> print(x)
-(6.4031242374328485, 0.8960553845713439)
->>> z=cmath.rect(x)
-Traceback (most recent call last):
-  File "<python-input-36>", line 1, in <module>
-    z=cmath.rect(x)
-TypeError: rect expected 2 arguments, got 1
->>> z=cmath.rect(x[0],x[1])
->>> print(z)
-(4+4.999999999999999j)
->>>
-KeyboardInterrupt
->>>
-"""
-
-

@@ -15,3 +15,4 @@ print('Evens from squares:', evens)
 doubled = list(map(lambda x: x * 2, evens))
 print('Doubled evens:', doubled)
 def greet(name):
+    return f'Hello, {name}!'

@@ -8,3 +8,4 @@ print('Square Dict:', square_dict)
 # Let's look at lambda functions
 add = lambda x, y: x + y
 print('Lambda add 5+3:', add(5, 3))
+# Filter with lambda

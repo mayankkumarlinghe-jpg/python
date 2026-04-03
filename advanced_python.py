@@ -12,3 +12,4 @@ print('Lambda add 5+3:', add(5, 3))
 evens = list(filter(lambda x: x % 2 == 0, squares))
 print('Evens from squares:', evens)
 # Map with lambda
+doubled = list(map(lambda x: x * 2, evens))

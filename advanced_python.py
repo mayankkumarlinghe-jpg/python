@@ -10,3 +10,4 @@ add = lambda x, y: x + y
 print('Lambda add 5+3:', add(5, 3))
 # Filter with lambda
 evens = list(filter(lambda x: x % 2 == 0, squares))
+print('Evens from squares:', evens)

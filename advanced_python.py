@@ -5,3 +5,4 @@ print('Squares:', squares)
 # Dictionary comprehensions
 square_dict = {x: x**2 for x in range(5)}
 print('Square Dict:', square_dict)
+# Let's look at lambda functions

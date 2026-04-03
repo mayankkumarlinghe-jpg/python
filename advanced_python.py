@@ -17,3 +17,4 @@ print('Doubled evens:', doubled)
 def greet(name):
     return f'Hello, {name}!'
 print(greet('Alice'))
+print('Advanced module loaded successfully')

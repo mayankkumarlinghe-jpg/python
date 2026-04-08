@@ -256,3 +256,32 @@ birthday =datetime(1999,1,1)
 #sentence =f'jenn has a birthday on{birthday}'
 sentence =f'jenn has a birthday on {birthday:%B %d,%Y}'
 print(sentence) #gives basing datetime formating
+
+
+
+Refactor the provided Python code to improve its efficiency and readability when processing large files.
+def process_large_file(file_path):
+    results = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            if 'AI' in line:
+                results.append(line.strip())
+    return results
+
+#refactor code
+from typing import Generator
+
+def process_large_file_generator(file_path: str, keyword: str = 'AI') -> Generator[str, None, None]:
+    """
+    Reads a large file line-by-line and yields lines containing the keyword.
+    Memory-efficient for very large files.
+    """
+    with open(file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            if keyword in line:
+                yield line.strip()
+
+# Usage:
+# for match in process_large_file_generator('large_log.txt'):
+#     print(match)
+

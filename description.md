@@ -320,4 +320,25 @@ returns true if both conditions are true in the statement else output to false
 2. Logican OR -- or:
 return false only when both conditions are false else return true if any of the two condition is true
 n.
+3. Logical NOT --not (unary op):
+make reverse of the condition if true returns false and vice-versa
 
+- The string formatting operator in Python allows you to insert values into a string.
+
+- The operator uses the % symbol and is followed by a tuple or dictionary containing the values to be inserted.
+
+- The %s placeholder is used to insert a string value into the string.
+
+- The %d placeholder is used to insert an integer value into the string.
+
+- The %f placeholder is used to insert a floating-point value into the string.
+
+- The % operator can also be used to format multiple values at once.
+
+- The order of the values in the tuple or dictionary must match the order of the placeholders in the string.
+
+- The % operator can also be used to control the precision and width of the inserted values.
+
+- The % operator can be used with different data types, such as strings, integers, and floating-point numbers.
+
+- String formatting can be a powerful tool for creating dynamic and customized output in Pytho

@@ -285,3 +285,24 @@ def process_large_file_generator(file_path: str, keyword: str = 'AI') -> Generat
 # for match in process_large_file_generator('large_log.txt'):
 #     print(match)
 
+#Refactor the provided code to improve its efficiency and readability when processing large CSV files. Consider memory usage and code clarity.
+def process_large_csv(file_path):
+    import csv
+    results = []
+    with open(file_path, mode='r', newline='') as file:
+        reader = csv.reader(file)
+        headers = next(reader)
+        for row in reader:
+            results.append(dict(zip(headers, row)))
+    return results
+#o/p
+
+import csv
+
+def process_large_csv(file_path):
+    """Refactored to yield rows as they are read to save memory."""
+    with open(file_path, mode='r', encoding='utf-8', newline='') as file:
+        # DictReader automatically handles headers and maps them to row values
+        reader = csv.DictReader(file)
+        for row in reader:
+            yield row  # Memory usage remains low; processes one row at a time

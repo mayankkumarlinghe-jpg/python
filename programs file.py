@@ -259,7 +259,7 @@ print(sentence) #gives basing datetime formating
 
 
 
-Refactor the provided Python code to improve its efficiency and readability when processing large files.
+#Refactor the provided Python code to improve its efficiency and readability when processing large files.
 def process_large_file(file_path):
     results = []
     with open(file_path, 'r') as file:
@@ -306,3 +306,18 @@ def process_large_csv(file_path):
         reader = csv.DictReader(file)
         for row in reader:
             yield row  # Memory usage remains low; processes one row at a time
+
+
+
+#Refactor the provided Python code to improve its efficiency and readability when handling large JSON files.
+import 
+
+def process_large_(file_path):
+    with open(file_path, 'r') as file:
+        data = .load(file)
+        # Process data
+        for item in data:
+            # Perform some operations
+            pass
+    return data
+
